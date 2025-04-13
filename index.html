@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOM Manipulation</title>
+  <style>
+    #box {
+      width: 200px;
+      height: 200px;
+      background-color: lightblue;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="main-heading">Welcome to JavaScript DOM!</h1>
+  </header>
+
+  <main>
+    <p>This is a simple demonstration of DOM manipulation.</p>
+    <div id="box"></div>
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="changeStyle()">Change Box Style</button>
+    <button onclick="toggleElement()">Add/Remove Message</button>
+    <section id="message-section"></section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 DOM Fun Zone</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
